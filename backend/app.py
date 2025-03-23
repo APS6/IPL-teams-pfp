@@ -24,7 +24,7 @@ except AttributeError:
     LANCZOS = Image.Resampling.LANCZOS
 
 app = Flask(__name__)
-CORS(app, origins=["https://rcb.anirudhasah.com", "http://localhost:4321"])
+CORS(app, origins=["https://ipl-pfp.anirudhasah.com", "http://localhost:4321"])
 
 # Configuration
 UPLOAD_FOLDER = os.environ.get('UPLOAD_FOLDER', 'uploads')
